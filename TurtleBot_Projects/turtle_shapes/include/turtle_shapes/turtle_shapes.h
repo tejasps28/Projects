@@ -33,6 +33,7 @@ class turtleshapes{
 
         void initPubSub();
         void draw_triangle();
+        void draw_square();
         bool draw_service_cb(turtle_shapes::DrawShape::Request& ,turtle_shapes::DrawShape::Response& );
         
 
