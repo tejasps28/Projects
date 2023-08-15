@@ -21,14 +21,18 @@ class turtleshapes{
 
         ros::NodeHandle* nh;
 
+        ros::Publisher turtle_vel_pub;
+        
         ros::ServiceServer draw_service;
 
 
         int temp;
+        geometry_msgs::Twist move_cmd;
 
 
 
         void initPubSub();
+        void draw_triangle();
         bool draw_service_cb(turtle_shapes::DrawShape::Request& ,turtle_shapes::DrawShape::Response& );
         
 
