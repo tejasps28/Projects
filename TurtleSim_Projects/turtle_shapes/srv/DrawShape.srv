@@ -1,0 +1,4 @@
+int32 num
+---
+string shape_id
+bool success
