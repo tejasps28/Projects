@@ -33,7 +33,7 @@ rosrun turtle_shapes turtle_shapes_node
 
 #In a new terminal, to draw a shape
 rosservice call /draw_shape "num: 2"
-'''
+```
 ![Turtle Shapes Demo](https://raw.githubusercontent.com/tejasps28/Projects/main/TurtleSim_Projects/turtle_shapes/img/turtle_shapes.gif)
 
 
