@@ -22,3 +22,17 @@ git clone https://github.com/tejasps28/Projects.git
 cd ~/catkin_ws
 catkin build
 
+# Source your environment
+source ~/catkin_ws/devel/setup.bash
+
+# Run the turtlesim node
+rosrun turtlesim turtlesim_node
+
+# In another terminal, run the turtle_shapes node
+rosrun turtle_shapes turtle_shapes_node
+
+#In a new terminal, to draw a shape
+rosservice call /draw_shape "num: 2"
+
+![Turtlesim Drawing Shapes](img/turtle_shapes.gif)
+
