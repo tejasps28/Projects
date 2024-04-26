@@ -39,6 +39,6 @@ For more information, refer [this](https://github.com/Unity-Technologies/Unity-R
 The `move_base.launch` is a boilerplate template of navigation stack's implementation. Go through it for further understanding.
 NOTE: This is using an exisiting version of the environment as map. You can follow any tutorial for creating a map, regenerate it and test out the SLAM.
 
-![Unity 2D SLAM Demo](https://raw.githubusercontent.com/tejasps28/Projects/main/TurtleSim_Projects/turtle_shapes/img/turtle_shapes.gif)
+![Unity 2D SLAM Demo](https://raw.githubusercontent.com/tejasps28/Projects/main/Diffbot_unitysim/Diffbot_2D/img/unity-2d.gif)
 
 
